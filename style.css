@@ -1,8 +1,8 @@
 /* New Stylesheet to make website better and allow improved viewing on mobile devices */
 body {
 margin: auto;
-background-color: white;
-color: black;
+background-color: #5f6061;
+color: #dcddde;
 font-family: 'Open Sans', sans-serif;
 text-decoration: none;
 }
@@ -15,8 +15,9 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  overflow: hidden;  
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 nav li {
@@ -25,15 +26,14 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav li a:hover {
-  background-color: #111;
+  background-color: #f4f4f4;
 }
 .active {
   background-color: #FF0000;
@@ -41,5 +41,5 @@ nav li a:hover {
 .news {
   float: right;
   width: 33%;
-  color: grey;
+  color: red;
 }
