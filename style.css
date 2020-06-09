@@ -6,6 +6,11 @@ color: black;
 font-family: 'Open Sans', sans-serif;
 text-decoration: none;
 }
+li{
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
